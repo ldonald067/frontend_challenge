@@ -1,0 +1,194 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 10px;
+  background-color: #d3d3d3;
+}
+
+h1 {
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+h3 {
+	padding-bottom: 10px;
+}
+
+
+.container {
+  margin: 10px auto;
+  width: 420px;
+
+}
+
+nav {
+  margin: 0 auto;
+  padding: 10px 0 15px 15px;
+  width: 420px;
+	background-color: #758DF5;
+
+}
+
+.walk {
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px 0 15px 15px;
+  width: 420px;
+  background-color: #97A8F7;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.transit {
+  padding: 0px 10px;
+	width: 100%;
+	background: #ffffff;
+}
+
+.location {
+  padding:10px 15px 15px 15px;
+  margin: 0 -1em;
+  border-bottom: thin solid #000000;
+}
+
+/*.location:hover {
+  background-color: blue;
+}*/
+
+
+/*.arrow-left {
+  display: inline-block;
+  width: 5%;
+  float: left;
+  margin-top: 3px;
+  height: 0px;
+
+}*/
+
+
+
+
+.content {
+  display: inline-block;
+}
+
+
+.content h1 {
+	font-size: 3.0em;
+	font-weight: 700;
+
+}
+
+.content h3 {
+	font-size: 1.4em;
+	font-weight: 550;
+
+}
+
+.arrow-left {
+  width: 5%;
+  float: left;
+  padding-top: 6px;
+  margin-top: 2px;
+
+}
+
+.fa-chevron-left {
+  color: #000000;
+}
+
+.frequency {
+	float: right;
+	text-align: right;
+	clear: right;
+	font-weight: 500;
+	padding-top: 24px;
+	color: #000000;
+	width: 25%;
+  font-size: 2.0em;
+}
+
+
+
+
+input {
+	text-align: left;
+	display: block;
+	width: 90%;
+	letter-spacing: 1px;
+	word-spacing: 2px;
+  border-radius: 10px ;
+  height: 30px;
+  margin: 0 auto;
+
+}
+
+.form {
+    padding-right: 35px;
+    padding-left: 20px;
+}
+
+input[type="text"][readonly] {
+   font-size: 1.50em;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color: #000000;
+}
+
+
+
+.circle {
+  	float: center;
+  	text-align: center;
+  	clear: both;
+  	padding-left: 185px;
+  	width: 100%;
+
+}
+
+.status {
+  display: inline-flex;
+  background-color: #758DF5;
+  font-size: .7rem;
+  width: 100%;
+  /*height: 20px;*/
+  color: black;
+  margin: 0 auto;
+  color: #000000;
+  padding-top: 2px;
+  /*padding-left: 5px;*/
+
+}
+
+.signal {
+  padding: 0 4px 0 7px;
+  color: #000000;
+}
+
+#circle1 {
+  padding-right: 5px;
+}
+
+.wifi {
+  padding: 0 4px;
+  color: #000000;
+}
+
+.clock {
+  padding: 0 55px 0px 115px;
+  color: #000000;
+}
+
+.bluetooth {
+  padding: 0 4px 0 60px;
+}
+
+.battery {
+  padding:0 0 0 6px;
+  color: #7ED321;
+  /*border: 1px solid black;*/
+}
