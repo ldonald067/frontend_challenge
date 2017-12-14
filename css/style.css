@@ -24,9 +24,47 @@ h3 {
 
 }
 
-.fa-circle-o {
-  padding-right: 5px;
+.status {
+  display: inline-flex;
+  background-color: #758DF5;
+  font-size: .7rem;
+  width: 100%;
+  /*height: 20px;*/
+  color: black;
+  margin: 0 auto;
+  color: #000000;
+  padding-top: 2px;
+  /*padding-left: 5px;*/
+
 }
+
+.signal {
+  padding: 0 4px 0 7px;
+  color: #000000;
+}
+
+
+
+.wifi {
+  padding: 0 4px;
+  color: #000000;
+}
+
+.clock {
+  padding: 0 55px 0px 115px;
+  color: #000000;
+}
+
+.bluetooth {
+  padding: 0 4px 0 60px;
+}
+
+.battery {
+  padding:0 0 0 6px;
+  color: #7ED321;
+  /*border: 1px solid black;*/
+}
+
 
 nav {
   margin: 0 auto;
@@ -150,43 +188,6 @@ input[type="text"][readonly] {
 
 }
 
-.status {
-  display: inline-flex;
-  background-color: #758DF5;
-  font-size: .7rem;
-  width: 100%;
-  /*height: 20px;*/
-  color: black;
-  margin: 0 auto;
-  color: #000000;
-  padding-top: 2px;
-  /*padding-left: 5px;*/
-
-}
-
-.signal {
-  padding: 0 4px 0 7px;
-  color: #000000;
-}
-
-
-
-.wifi {
-  padding: 0 4px;
-  color: #000000;
-}
-
-.clock {
-  padding: 0 55px 0px 115px;
-  color: #000000;
-}
-
-.bluetooth {
-  padding: 0 4px 0 60px;
-}
-
-.battery {
-  padding:0 0 0 6px;
-  color: #7ED321;
-  /*border: 1px solid black;*/
+.fa-circle-o {
+  padding-right: 5px;
 }
